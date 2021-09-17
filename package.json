@@ -1,0 +1,29 @@
+{
+  "name": "pdfreader-nodejs",
+  "version": "1.0.0",
+  "description": "Extraction adresse mail d'un PDF vers un fichier .txt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wJumelle/pdfReader-nodeJS.git"
+  },
+  "keywords": [
+    "pdfreader",
+    "nodejs",
+    "extract",
+    "email",
+    "addresses"
+  ],
+  "author": "Wilfried JUMELLE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wJumelle/pdfReader-nodeJS/issues"
+  },
+  "homepage": "https://github.com/wJumelle/pdfReader-nodeJS#readme",
+  "dependencies": {
+    "pdfreader": "^1.2.11"
+  }
+}
