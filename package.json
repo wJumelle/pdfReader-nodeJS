@@ -4,7 +4,7 @@
   "description": "Extraction adresse mail d'un PDF vers un fichier .txt",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "extract": "node node_modules/pdfreader/parse.js pdf/monfichier.pdf"
   },
   "repository": {
     "type": "git",

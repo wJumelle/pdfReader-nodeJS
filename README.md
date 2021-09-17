@@ -1,5 +1,5 @@
-# Package pdfReader node js
-Utilisation du package pdfReader pour extraire des adresses mails d'un PDF vers un fichier .txt
+# Extraction d'adresse email avec le module Node.js pdfReader
+Utilisation du package pdfReader pour extraire des adresses mails d'un PDF vers un fichier "output.txt".
 
 Lien vers la documentation du package : [doc](https://www.npmjs.com/package/pdfreader#installation-tests-and-cli-usage).  
 
@@ -11,15 +11,26 @@ Pour réaliser ce process, il est nécessaire d'avoir d'installé sur sa machine
 ## Etape 1 : installation de Git et vérification que Node.js est bien installé
 ### Installation de Git
 L'installation de Git est optionnel, elle permet de cloner rapidement le projet via la console de votre IDE.  
-Cependant, vous pouvez très bien sur Github cliquer sur le bouton vert "Code" et de choisir "Download ZIP".
+Cependant, sur Github vous pouvez cliquer sur le bouton vert "Code" et choisir "Download ZIP", cela vous téléchargera l'archive du projet.
 
 ### Vérification de l'installation de Node.js
-Dans la console, vérifiez que vous êtes bien sur le dossier du projet "pdfReader-nodeJS".  
+Dans votre IDE, ici "Visual Code Studio", faites "Fichier > Ouvrir le dossier" et aller chercher le dossier du projet que vous venez de télécharger.
+Dans la console, activable via le raccourci clavier `Ctrl + ù` vérifiez que vous êtes bien sur le dossier du projet "pdfReader-nodeJS".  
+
 Puis saisissez la commande suivante : `npx -v`.  
 Celle-ci devrait faire s'afficher la version actuellement installée de Node.js sur votre appareil.
 
 ## Etape 2 : Lancer la commande d'extraction des adresses emails
-Encore dans la console, saisissez la commande suivante `node parse.js ../../pdf/MONFICHIER.pdf`.  
-Ici la commande sous-entends que vous ayiez déposé votre fichier PDF à traiter, dans un dossier `pdf` à la 
-racine du projet.  
-Il faudra faire évoluer la commande et remplacer `MONFICHIER` par le véritable nom du fichier pdf. 
+Les commandes qui vont suivre sous-entendent que vous ayiez déposé au préalable votre fichier PDF à traiter dans un dossier `pdf` à la racine du projet.
+
+Maintenant vous avez deux possibilités :
+1. soit renommer votre fichier PDF `monfichier.pdf` et exécuter la commande `npm run extract`
+2. soit exécuter la commande `node node_modules/pdfreader/parse.js pdf/monfichier.pdf` en modifiant le nom `monfichier.pdf` par le nom de votre fichier. 
+
+Ces deux commandes auront le même résultat : la création du fichier `output.txt` à la racine de votre projet.
+Il ne vous reste plus qu'à ouvrir votre logiciel tableur, personnelement j'utilise Excel 2016, et suivre les étapes suivantes :
+* "Nouveau classeur"
+* "Données > Données externes > Fichier texte" et chercher votre fichier `output.txt`
+* Dans l'étape 2 de l'importation choisir le caractère `,` comme caractère séparateur.
+
+  
