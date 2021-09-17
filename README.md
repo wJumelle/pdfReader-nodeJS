@@ -30,7 +30,7 @@ Maintenant vous avez deux possibilités :
 Ces deux commandes auront le même résultat : la création du fichier `output.txt` à la racine de votre projet.
 
 ## Étape 3 : import des données dans votre tableur
-Il ne vous reste plus qu'à ouvrir votre logiciel tableur, personnelement j'utilise Excel 2016, et suivre les étapes suivantes :
+Il ne vous reste plus qu'à ouvrir votre logiciel tableur, personnellement j'utilise Excel 2016, et suivre les étapes suivantes :
 * "Nouveau classeur"
 * "Données > Données externes > Fichier texte" et chercher votre fichier `output.txt`
 * Dans l'étape 2 de l'importation choisir le caractère `,` comme caractère séparateur.
