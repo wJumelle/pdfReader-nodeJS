@@ -18,7 +18,7 @@ Dans la console, vérifiez que vous êtes bien sur le dossier du projet "pdfRead
 Puis saisissez la commande suivante : `npx -v`.  
 Celle-ci devrait faire s'afficher la version actuellement installée de Node.js sur votre appareil.
 
-### Etape 2 : Lancer la commande d'extraction des adresses emails
+## Etape 2 : Lancer la commande d'extraction des adresses emails
 Encore dans la console, saisissez la commande suivante `node parse.js ../../pdf/MONFICHIER.pdf`.  
 Ici la commande sous-entends que vous ayiez déposé votre fichier PDF à traiter, dans un dossier `pdf` à la 
 racine du projet.  
